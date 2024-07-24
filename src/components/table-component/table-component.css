@@ -1,0 +1,34 @@
+:host {
+  display: block;
+}
+
+.table__status-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.table__status-header.table__status-header--hidden .table__dropdown-button{
+  transform: rotate(180deg);
+}
+
+.table__chackbox-wrapper {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: matrix(-50%);
+  border: 1px solid black;
+  padding: 3px;
+  background-color: white;
+}
+
+.table__dropdown-button {
+  padding: 0;
+  border-bottom: 8px solid black;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  background: transparent;
+  border-top: none;
+  cursor: pointer;
+}
+
